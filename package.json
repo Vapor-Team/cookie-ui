@@ -2,7 +2,7 @@
   "name": "cookie-ui",
   "version": "0.0.1",
   "description": "cookie-UI组件,方便快捷,你会爱上它！",
-  "main": "cookie.init.js",
+  "main": "./lib/cookie.init.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Jack-In/cookie-ui.git"

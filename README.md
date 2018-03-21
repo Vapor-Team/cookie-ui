@@ -6,7 +6,7 @@
 
 > ### 快速安装
   ### install
-  快速添加 `cookie-ui` 组件到 app 中
+  快速添加
   ```bash
   npm install --save cookie-ui
   ```
@@ -15,6 +15,7 @@
   // 入口文件
   使用Vue.use()来注册该组件库
   import cookieUI from 'cookie-ui'
+  import 'cookie-ui/css/cookie-ui.css'
   Vue.use(cookieUI)
 
   // 二维码组件使用方法
