@@ -66,7 +66,7 @@
 | text | String | qrcode value |
 
 ## 参考代码
-["node-qrcode"](https://github.com/zpao/qrcode.react)
+["node-qrcode"](https://github.com/soldair/node-qrcode)
 > ### License
 
 [MIT](https://github.com/Jack-In/cookie-ui/blob/master/LICENSE)
