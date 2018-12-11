@@ -13,14 +13,14 @@
   ### components
   ```html
   // 入口文件
-  import cookieUI from 'cookie-ui'
-  import 'cookie-ui/css/cookie-ui.css'
+  import { CUI } from 'cookie-ui'
+  import 'cookie-ui/lib/css/cookie-ui.css'
   使用Vue.use()来注册该组件库
-  Vue.use(cookieUI)
+  Vue.use(CUI)
   // 二维码组件使用方法
   <template>
     <div>
-      <cookie-qr :config="config" :text="text"></cookie-qr>
+      <c-qr :config="config" :text="text"></c-qr>
     </div>
   </template>
   <script>
@@ -56,8 +56,8 @@
     }
   }
   </script>
-  // 提供“QRCodeSrc”事件，该事件会返回生成二维码后的base64编码
-  <cookie-qr @QRCodeSrc="handler()"></cookie-qr>
+  // 提供“getSrc”事件，该事件会返回生成二维码后的base64编码
+  <c-qr @getSrc="handler()"></c-qr>
   handler(src){
     // src为生成二维码后的base64编码
     console.log(src)
@@ -66,10 +66,10 @@
 > ###使用单个功能
   ```html
   // 入口文件
-  import { cookieQr } from 'cookie-ui'
-  import 'cookie-ui/css/cookie-ui.css'
-  使用Vue.use()来注册该组件
-  Vue.use(cookieQr)
+  import { CQr } from 'cookie-ui'
+  import 'cookie-ui/lib/css/cookie-ui.css'
+  在组件内部使用，选项注册
+  
   ```
 ## Component props
 
@@ -82,4 +82,4 @@
 ["node-qrcode"](https://github.com/soldair/node-qrcode)
 > ### License
 
-[MIT](https://github.com/Jack-In/cookie-ui/blob/master/LICENSE)
+[MIT](https://github.com/Js-mark/cookie-ui/blob/master/LICENSE)

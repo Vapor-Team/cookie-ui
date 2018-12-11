@@ -1,31 +1,29 @@
 {
-  "name": "cookie-ui",
-  "version": "0.1.0",
-  "description": "cookie-UI组件,方便快捷,你会爱上它！",
-  "main": "./lib/cookie.init.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Jack-In/cookie-ui.git"
-  },
-  "scripts": {
-    "dev": "npm install qrcode@1.2.0 --save-dev"
-  },
-  "keywords": [
-    "vue",
-    "ui",
-    "cookie-ui",
-    "qrcode"
-  ],
-  "bugs": {
-    "url": "https://github.com/Jack-In/cookie-ui/issues"
-  },
-  "homepage": "https://github.com/Jack-In/cookie-ui",
-  "author": "jack-in",
-  "license": "MIT",
-  "dependencies": {
-    "qrcode": "^1.2.0"
-  },
-  "devDependencies": {
-    "qrcode": "^1.2.0"
-  }
+	"name": "cookie-ui",
+	"version": "0.1.1",
+	"description": "cookie-UI组件,方便快捷,你会爱上它！",
+	"main": "./lib/cookie.init.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Js-mark/cookie-ui.git"
+	},
+	"scripts": {
+		"dev": "npm install qrcode --save-dev"
+	},
+	"style": "./lib/css/index.css",
+	"keywords": [
+		"vue",
+		"ui",
+		"cookie-ui",
+		"qrcode"
+	],
+	"bugs": {
+		"url": "https://github.com/Js-mark/cookie-ui/issues"
+	},
+	"homepage": "https://github.com/Js-mark/cookie-ui",
+	"author": "jack-in",
+	"license": "MIT",
+	"dependencies": {
+		"qrcode": "^1.2.0"
+	}
 }
